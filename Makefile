@@ -1,5 +1,5 @@
 PKG_NAME := adapt-parser
-URL = https://files.pythonhosted.org/packages/36/a4/3ef82c754a8fb079a98d0adb66be1e3dc7a42d6faafdf1f106924a48c352/adapt-parser-0.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/1f/a3/93973bbdd22bf4eb7eb5e8805c16ebb50b86e61b6fb774e97e8109f2aba2/adapt-parser-0.3.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
