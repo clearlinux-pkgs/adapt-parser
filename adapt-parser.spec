@@ -4,7 +4,7 @@
 #
 Name     : adapt-parser
 Version  : 0.3.4
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/01/80/2a437b4b59ada21209a420e44d9597d13f3853df3f16040d3077e1a7976a/adapt-parser-0.3.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/01/80/2a437b4b59ada21209a420e44d9597d13f3853df3f16040d3077e1a7976a/adapt-parser-0.3.4.tar.gz
 Summary  : A text-to-intent parsing framework.
