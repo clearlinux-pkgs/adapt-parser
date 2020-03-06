@@ -4,7 +4,7 @@
 #
 Name     : adapt-parser
 Version  : 0.3.4
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/01/80/2a437b4b59ada21209a420e44d9597d13f3853df3f16040d3077e1a7976a/adapt-parser-0.3.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/01/80/2a437b4b59ada21209a420e44d9597d13f3853df3f16040d3077e1a7976a/adapt-parser-0.3.4.tar.gz
 Summary  : A text-to-intent parsing framework.
@@ -34,7 +34,9 @@ python components for the adapt-parser package.
 Summary: python3 components for the adapt-parser package.
 Group: Default
 Requires: python3-core
-Provides: pypi(adapt-parser)
+Provides: pypi(adapt_parser)
+Requires: pypi(pyee)
+Requires: pypi(six)
 
 %description python3
 python3 components for the adapt-parser package.
@@ -49,8 +51,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582844862
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583531031
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
